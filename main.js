@@ -25,7 +25,6 @@ function buildGrid(squareSize) {
     gridItem.setAttribute('data-pass', 1);
 
     container.appendChild(gridItem);
-
   }
   container.setAttribute("style", `grid-template-columns:repeat(${squareSize}, 1fr); grid-template-rows:repeat(${squareSize}, 1fr)`);
 };
